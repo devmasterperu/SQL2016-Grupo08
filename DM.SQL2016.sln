@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.902
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "DM.SQL2016.SEM09", "DM.SQL2016.SEM09\DM.SQL2016.SEM09.dtproj", "{FA0C3949-20BB-436A-9C5B-437C91A213C2}"
+EndProject
+Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "DM.SQL2016.SEM10", "DM.SQL2016.SEM10\DM.SQL2016.SEM10.dtproj", "{7621AFC5-4B69-443C-A569-1FE655CBAA7F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FA0C3949-20BB-436A-9C5B-437C91A213C2}.Development|Default.ActiveCfg = Development
+		{FA0C3949-20BB-436A-9C5B-437C91A213C2}.Development|Default.Build.0 = Development
+		{7621AFC5-4B69-443C-A569-1FE655CBAA7F}.Development|Default.ActiveCfg = Development
+		{7621AFC5-4B69-443C-A569-1FE655CBAA7F}.Development|Default.Build.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2EC56464-1DC7-4C22-B284-D213EE42BA5F}
+	EndGlobalSection
+EndGlobal
