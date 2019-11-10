@@ -11,8 +11,8 @@
   DTS:LocaleID="10250"
   DTS:ObjectName="Ejemplo 06"
   DTS:PackageType="5"
-  DTS:VersionBuild="2"
-  DTS:VersionGUID="{AA71D534-A54A-4FA7-92D7-7906470DDAAC}">
+  DTS:VersionBuild="5"
+  DTS:VersionGUID="{AE028B7E-4A8F-4C37-B3A1-340F40194D56}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:Variables>
@@ -23,7 +23,7 @@
       DTS:Namespace="User"
       DTS:ObjectName="archivo_destino">
       <DTS:VariableValue
-        DTS:DataType="8">E:\Ejercicio-06\comdinamico.7z</DTS:VariableValue>
+        DTS:DataType="8">E:\SEMANA10\DESTINO.7z</DTS:VariableValue>
     </DTS:Variable>
     <DTS:Variable
       DTS:CreationName=""
@@ -41,7 +41,7 @@
       DTS:Namespace="User"
       DTS:ObjectName="ruta_origen">
       <DTS:VariableValue
-        DTS:DataType="8">E:\Ejercicio-06\Reportes</DTS:VariableValue>
+        DTS:DataType="8">E:\SEMANA10\ARCHIVOS</DTS:VariableValue>
     </DTS:Variable>
   </DTS:Variables>
   <DTS:Executables>
@@ -63,7 +63,8 @@
       <DTS:ObjectData>
         <ExecuteProcessData
           Executable="C:\Program Files\7-Zip\7z.exe"
-          Arguments="a E:\Ejercicio-06\comdinamico.7z E:\Ejercicio-06\Reportes" />
+          Arguments="a E:\SEMANA10\DESTINO.7z E:\SEMANA10\ARCHIVOS"
+          WindowStyle="Hidden" />
       </DTS:ObjectData>
     </DTS:Executable>
   </DTS:Executables>
